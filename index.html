@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="es">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="_styles/First_One/first_one.css" title="La Primera, por Irving"/>
+<script src="_scripts/DOMLib.js"></script>
+<script src="_scripts/TimeLib.js"></script>
+<script src="_scripts/libcontacto.js"></script>
+<script src="_scripts/temp.js"></script>
+<script src="_scripts/libvCard.js"></script>
+</head>
+<body>
+ <div id="EspacioEstatico">
+ <h1 id="TituloDeLaPagina">Graduación XXX Aniversario de la Lenin</h1>
+ <h2 id="IDGrupo14">Grupo 14 Unidad 3</h2>
+ <ul id="ListasDeCorreo">
+  <span id="EtiquetaListasDeCorreo">Listas de Correo</span>
+  <li class="ListasDeCorreo"><a class="ListasDeCorreo" id="ListasDeCorreos_Nacional">Lista de Correos Nacionales</a></li>
+  <li class="ListasDeCorreo"><a class="ListasDeCorreo" id="ListasDeCorreos_Internacional">Lista de Correos Internacionales</a></li>
+  <li class="ListasDeCorreo"><a class="ListasDeCorreo" id="ListasDeCorreos_Todos">Lista de Todos los Correos</a></li>
+ </ul>
+ <ul id="ProximosCumpleanyos">
+ <span id="EtiquetaProximosCumpleanyos">Próximos Cumpleaños</span>
+ <li><ul id="ProximosCumpleanyos_ProximoMes">
+  <span id="EtiquetaProximosCumpleanyos_ProximoMes"></span>
+ </ul></li>
+ <li><ul id="ProximosCumpleanyos_EsteMes">
+  <span id="EtiquetaProximosCumpleanyos_EsteMes"></span>
+ </ul></li>
+ </ul>
+ </div>
+ <div id="HerramientaDeBusqueda">
+  <form>
+   <label id="EtiquetaSeleccion" for="SeleccionDePersonaje">Seleccionar Personaje: </label>
+   <select id="SeleccionDePersonaje" name="quien" onchange="seleccionarintegrante(this)">
+    <option id="SeleccionNula">---</option>
+   </select>
+  </form>
+ </div>
+ <div id="EspacioDeContenido"></div>
+<script src="_scripts/test.js"></script>
+</body>
+</html>

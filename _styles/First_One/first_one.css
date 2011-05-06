@@ -1,0 +1,192 @@
+body{
+ width: 1000px;
+ height: 700px;
+ background-color: black;
+ background-image: url("background.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: 1em 1.8em;
+ color: silver;
+ font-family: Thaoma, Arial, Sans-Serif;
+}
+
+div#EspacioEstatico{
+ height: 10em;
+ width: 100%;
+ float: left;
+ clear: both;
+}
+
+h1#TituloDeLaPagina{
+ color: white;
+ text-align: center;
+}
+
+h2#IDGrupo14{
+ font-size: 9pt;
+ font-variant: small-caps;
+ float: left;
+ clear: none;
+ margin-top: -6em;
+ margin-left: 0.7em;
+ color: grey;
+}
+
+
+ul#ProximosCumpleanyos, ul#ProximosCumpleanyos_EsteMes, ul#ProximosCumpleanyos_ProximoMes{
+ float: right;
+ clear: none;
+ font-size: 10pt;
+ font-variant: small-caps;
+ margin-right: 0.7em;
+}
+
+span#EtiquetaProximosCumpleanyos, span#EtiquetaProximosCumpleanyos_EsteMes, span#EtiquetaProximosCumpleanyos_ProximoMes{
+ color: silver;
+}
+/*
+li.ListasDeCorreo{
+ font-size: 9pt;
+ list-style-type: none;
+}
+
+a.ListasDeCorreo{
+ margin-left: 2em;
+ text-decoration: none;
+}
+*/
+
+
+ul#ListasDeCorreo{
+ float: right;
+ clear: none;
+ font-size: 10pt;
+ font-variant: small-caps;
+ margin-right: 0.7em;
+}
+
+span#EtiquetaListasDeCorreo{
+ color: silver;
+}
+
+li.ListasDeCorreo{
+ font-size: 9pt;
+ list-style-type: none;
+}
+
+a.ListasDeCorreo{
+ margin-left: 2em;
+ text-decoration: none;
+}
+
+ul#Leyenda{
+ float: right;
+ clear: right;
+ font-size: 10pt;
+ font-variant: small-caps;
+ margin-right: 0.7em;
+}
+
+span#EtiquetaLeyenda{
+ color: silver;
+}
+
+li.Leyenda{
+ font-size: 9pt;
+ list-style-type: none;
+}
+
+div#HerramientaDeBusqueda{
+ width: 100%;
+ height: 5em;
+ float: left;
+ clear: right;
+}
+
+label#EtiquetaSeleccion{
+ margin-left: 1em;
+}
+
+div#EspacioDeContenido{
+ width: 100%;
+/* height: 60%;*/
+ float: left;
+ clear: both;
+}
+
+h3.Name{
+ text-align: center;
+ font-family: "Caflisch Script", "Adobe Poetica", "Sanvito", "Ex Ponto", "Snell Roundhand", "Zapf-Chancery", cursive;
+ font-weight: bold;
+}
+
+img.Photo{
+ float: right;
+ clear: right;
+ margin-right: 1em;
+ margin-top: -3em;
+ border-width: medium;
+ border-color: #000001;
+ border-style: outset;
+}
+
+object.Photo{
+ float: right;
+ clear: right;
+ margin-right: 1em;
+ margin-top: -3em;
+ border-width: medium;
+ border-color: #000001;
+ border-style: outset;
+}
+
+h4#BirthdayLabel, h4#CILabel{
+ display: inline;
+ margin-left: 1em;
+}
+
+span.BirthdayDate, span.CI{
+ margin-left: 1em;
+}
+
+h4#UbicationLabel, h4#EMailsLabel, h4#PhonesLabel, h4#HomeAddressLabel{
+ margin-left: 1em;
+ margin-bottom: 0.1em;
+}
+
+span.Ubication, span.EMail, a.EMail, a.EMail_internacional, span.Phone, span.Phone_fijo, span.Phone_movil, span.Phone_radio, address.HomeAddress{
+ display: block;
+ margin-top: 0.1em;
+ margin-bottom: 0px;
+ margin-left: 2em;
+ text-decoration: none;
+ color: white;
+}
+
+span.Ubication{
+ font-style: oblique;
+}
+
+a.EMail_nacional, a#ListasDeCorreos_Nacional{
+ color: orange;
+}
+
+a.EMail, a#ListasDeCorreos_Internacional{
+ color: green;
+}
+
+span.Phone{
+ color: navy;
+}
+
+span.Phone_movil{
+ color: maroon;
+}
+
+span.Phone_radio{
+ color: purple;
+}
+
+address.HomeAddress{
+ margin-bottom: 1.3em;
+}
